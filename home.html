@@ -4,13 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>PomoGram - Pomodoro Timer</title>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-  
+<body style="height:700px; width:270px; margin: 0px 0px 0px 0px; font-family: 'Noto Sans JP', sans-serif;">
+
+    <div class="header">
+        <h2>PomoGram</h2>
+    </div>
+
+    <u>
+        <h4>Our Options</h4>
+    </u>
+
+    <button id="btn"
+        title="Set all reminders with default suggested values (30 min water break, 1 hour screen breaks, pomodoro setup, and 11pm sleep)">
+        Set all reminders with suggested values
+    </button>
+    <div id="exp">(hover over the button to see description)</div>
+
+    <u>
+        <h4 class="separate">Choose Your Intervals:</h4>
+    </u>
+
+    <button id="water_break">Set your Water Break interval (in min)</button>
+    <input type="number" id="waterNum" min="0.1" oninput="validity.valid||(value='');"><br>
+
+    <button id="screen_break">Set your Screen Break interval (in min)</button>
+    <input type="number" id="screenNum" min="0.1" oninput="validity.valid||(value='');"><br>
+
+    <button id="sleep_reminder">Set your Sleep Schedule (in 24hr time)</button>
+    <input type="number" id="sleepNum" min="0.1" oninput="validity.valid||(value='');"><br>
+
+    <u>
+        <h4 class="separate">Choose Your Study Method:</h4>
+    </u>
+    <button id="pomodoro_timer">Start a Pomodoro Method timer</button>
+
+    <u>
+        <h4 class="separate">Stop Method(s):</h4>
+    </u>
+    <button id="stopWater">Stop your Water Break reminders</button>
+    <button id="stopScreen">Stop your Screen Break reminders</button>
+    <button id="stopPomodoro">Stop your Pomodoro Method reminders</button>
+    <button id="stopSleepReminder">Stop your Sleep Schedule reminders</button>
+    <button id="stopAllReminders">Stop all reminders</button>
+
+    <div class="footer">
+        <h3>Created with Love : Error Team</h3>
+    </div>
 </body>
 </html>
