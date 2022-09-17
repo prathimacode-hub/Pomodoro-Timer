@@ -19,7 +19,7 @@
     },
   
     "timer": {
-        "service_worker" : "script.js"
+        "service_worker" : "js/script.js"
     },
   
     "permissions": [
