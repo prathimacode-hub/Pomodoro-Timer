@@ -1,32 +1,36 @@
 {
     "manifest_version": 3,
-  
+
     "name": "Pomo Pal - Pomodoro Timer",
     "version": "1.0.0",
-    "description": "Enhance Your Time Management",
-    "description": "This friendly extension would allow the user to boost their productivity",
-  
+    "tagline": "Enhance Your Lifestyle Healthier with Regular Breaks",
+    "description": "This friendly extension would allow the user to boost their productivity and time management",
+
     "action": {
         "default_popup": "home.html",
-        "default_icon": "pomodoro.png"
+        "default_icon": "/images/pomodoro.png"
     },
-  
+
     "icons": {
         "16": "pomodoro.png",
         "32": "pomodoro.png",
         "48": "pomodoro.png",
         "128": "pomodoro.png"
     },
-  
-    "timer": {
-        "service_worker" : "js/script.js"
+
+    "host_permissions": ["<all_urls>"],
+
+    "background": {
+        "service_worker" : "js/background.js"
     },
-  
+
     "permissions": [
         "activeTab",
         "notifications",
         "alarms",
         "storage",
+        "scripting",
         "unlimitedStorage"
     ]
 }
+
