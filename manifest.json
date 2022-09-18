@@ -1,21 +1,21 @@
 {
     "manifest_version": 3,
 
-    "name": "Pomo Pal - Pomodoro Timer",
+    "name": "PomoGram - Pomodoro Timer",
     "version": "1.0.0",
     "tagline": "Enhance Your Lifestyle Healthier with Regular Breaks",
     "description": "This friendly extension would allow the user to boost their productivity and time management",
 
     "action": {
         "default_popup": "home.html",
-        "default_icon": "pomodoro.png"
+        "default_icon": "./images/pomodoro.png"
     },
 
     "icons": {
-        "16": "pomodoro.png",
-        "32": "pomodoro.png",
-        "48": "pomodoro.png",
-        "128": "pomodoro.png"
+        "16": "./images/pomodoro.png",
+        "32": "./images/pomodoro.png",
+        "48": "./images/pomodoro.png",
+        "128": "./images/pomodoro.png"
     },
 
     "host_permissions": ["<all_urls>"],
