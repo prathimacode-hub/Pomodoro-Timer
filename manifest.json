@@ -8,7 +8,7 @@
 
     "action": {
         "default_popup": "home.html",
-        "default_icon": "../images/pomodoro.png"
+        "default_icon": "pomodoro.png"
     },
 
     "icons": {
