@@ -4,9 +4,9 @@ This is the first project our team Error had submitted as a part of the hackatho
 
 ## Features
 
-- 
-- 
-
-## Result
+- Pomodoro Method Timer
+- Water Break Interval
+- Screen Break Interval
+- Sleep Schedule
 
 
