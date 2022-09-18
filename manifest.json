@@ -8,14 +8,14 @@
 
     "action": {
         "default_popup": "home.html",
-        "default_icon": "./images/pomodoro.png"
+        "default_icon": "pomodoro-timer.png"
     },
 
     "icons": {
-        "16": "./images/pomodoro.png",
-        "32": "./images/pomodoro.png",
-        "48": "./images/pomodoro.png",
-        "128": "./images/pomodoro.png"
+        "16": "pomodoro-timer.png",
+        "32": "pomodoro-timer.png",
+        "48": "pomodoro-timer.png",
+        "128": "pomodoro-timer.png"
     },
 
     "host_permissions": ["<all_urls>"],
