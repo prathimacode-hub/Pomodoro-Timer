@@ -48,7 +48,7 @@ chrome.alarms.onAlarm.addListener(
     chrome.notifications.create(
         {
         type :"basic",
-        iconUrl: "pomodoro.png",
+        iconUrl: "./images/pomodoro.png",
         title: notifTitle,
         message: notifMsg,
         silent: false
