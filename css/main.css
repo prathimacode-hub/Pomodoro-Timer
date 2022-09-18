@@ -1,2 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+.header {
+    background-color: #DBDBDB;
+    margin: -40px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+}
+
+.header h2 {
+    color: #696969;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+h4 {
+    color: #696969;
+    margin: 0px 0px 5px 7px;
+    text-shadow: -1px 1px 0px #DBDBDB;
+}
+
+.separate {
+    margin: 15px 0px 5px 7px;
+
+}
+
+button {
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    color: #696969;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 5px 5px;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+}
+
+#water_break, #screen_break, #sleep_reminder {
+    margin: 0px 0px 0px 5px;
+} 
+
+#stopAllReminders {
+    background-color: #EF0000;
+    color: #FFFFFF;
+    margin: 0px 0px 20px 5px;
+}
+
+button:hover {
+    background-color: #DBDBDB;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+#stopAllReminders:hover {
+    background-color: #DBA8A8;
+    color: #EF0000;
+    transition-duration: 0.3s;   
+}
+
+input {
+    border: 2px solid #696969;
+    margin: 0px 0px 10px 8px;
+    width: 220px;
+}
+
+.footer {
+    background-color: #DBDBDB;
+    padding: 2px 0px 5px 0px;
+}
+
+.footer h3 {
+    color: #696969;
+    font-size: 8px;
+    margin: 5px 2px 0px 5px;
+}
+
+.div {
+    color: #696969;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 0px;
+}
